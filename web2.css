@@ -18,3 +18,8 @@ div > a > img {
 div > p {
   font-size: 100px;
 }
+
+.bebas {
+  font-size: 100px;
+  text-decoration: none;
+}
