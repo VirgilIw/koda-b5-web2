@@ -1,0 +1,44 @@
+:root {
+  --bg-primary: red;
+  --bg-secondary: green;
+  --bg-tertiary: blue;
+  --base-spacing: 3px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type="email"] {
+  border: 2px solid var(--bg-primary);
+}
+
+button[data-role="primary"] {
+  border: 5px solid var(--bg-primary);
+}
+
+.card-container > article[data-status="error"] {
+  color: green;
+}
+
+tbody > :nth-child(1),
+tbody > :nth-child(3) {
+  background-color: var(--bg-primary);
+}
+
+thead > tr,
+tbody > :nth-child(2) {
+  background-color: var(--bg-secondary);
+}
+
+article > h2 + p::first-letter {
+  font-size: 50px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+section > ul > :nth-child(3) {
+  background-color: var(--bg-secondary);
+}

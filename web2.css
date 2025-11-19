@@ -1,0 +1,25 @@
+body {
+  background-color: grey;
+}
+.wrapp {
+  height: 500vh;
+}
+
+.inside {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+div > a > img {
+  width: 100px;
+}
+
+div > p {
+  font-size: 100px;
+}
+
+.bebas {
+  font-size: 100px;
+  text-decoration: none;
+}
